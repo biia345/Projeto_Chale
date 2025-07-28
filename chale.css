@@ -7,6 +7,7 @@ body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background: #fff url(./imagens/bg.png);
     margin: 15px;
+    min-width: 913px;
 }
 
 #container {
@@ -153,24 +154,24 @@ h2 {
 #area-principal, .conteudo p {
     padding-bottom: 10px;
     color: black;
+    font-size: 0.9em;
+}
+
+.conteudo span {
+    font-size: 1em;
 }
 
 /* fim área principal */
 
 
-/* anício área lateral */
+/* início área lateral */
 
 
-.lista-noticias li img{
-    width: 110px;
-}
 
 .lista-noticias li {
-    display: flex;
-    align-items: center;
     border-bottom: 1px solid #fff5b0;
     padding: 10px;
-    height: 6em;
+    height: 6.3em;
 }
 
 .lista-noticias li a img {
@@ -186,6 +187,9 @@ h2 {
     float: right;
 }
 
+.lista-noticias li a p{
+    font-size: 0.9em;
+}
 
 .lista-noticias li h3 {
     text-transform: uppercase;
